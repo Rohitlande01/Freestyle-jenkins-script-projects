@@ -1,0 +1,9 @@
+step1 build step
+invoke top level maven targets
+
+step2 post build actions
+Goals = clean package
+WAR/EAR files = target/*.war
+Context path = first
+tomcat 9.x = tomcat credentials
+tomcat url = localhost://8085
